@@ -1,0 +1,15 @@
+{
+    "name": "appname.yourname",
+    "description": "Unofficial version to access windfinder.com",
+    "architecture": "all",
+    "title": "Windfinder",
+    "hooks": {
+        "windfinder": {
+            "apparmor": "windfinder.apparmor",
+            "desktop":  "windfinder.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "chaosdelphin <chaosdelphin@web.de>",
+    "framework" : "ubuntu-sdk-15.04.5"
+}
